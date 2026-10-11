@@ -1,0 +1,30 @@
+# Khobor - Newspaper to Flashcard Pipeline Requirements
+# Tested on Python 3.10+ (Google Colab and Local Environments)
+
+# Computer Vision & Preprocessing
+opencv-python>=4.8.0,<=4.11.0.86
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# OCR Engine
+pytesseract>=0.3.10
+
+# Optional Paid-tier OCR Fallback
+google-cloud-vision>=3.14.0
+
+# LLM Extraction & Analysis
+google-generativeai>=0.8.0
+google-api-python-client>=2.100.0
+
+# Google Sheets Storage
+gspread>=6.1.0
+google-auth>=2.20.0
+google-auth-oauthlib>=1.0.0
+
+# Anki Deck Generation (.apkg)
+genanki>=0.13.0
+
+# Formatting & Notebook Utilities
+tabulate>=0.9.0
+ipywidgets>=8.0.0
+matplotlib>=3.7.0
